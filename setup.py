@@ -1,11 +1,17 @@
 from setuptools import setup, find_packages
 
+from pathlib import Path
+this_directory = Path(__file__).parent
+long_description = (this_directory / "README.md").read_text(encoding='utf-8')
+
 setup(
     name='CoolBar',
     packages=find_packages(),
-    version='0.5',
+    version='0.5.3',
     license='Apache-2.0',
     description='Dynamic Python Progress Bar',
+    long_description=long_description,
+    long_description_content_type='text/markdown',
     author='ReloadingBee',
     author_email='reloadingbee@gmail.com',
     url='https://github.com/ReloadingBee/CoolBar',

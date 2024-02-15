@@ -1,0 +1,1 @@
+from .CoolBar import Bar

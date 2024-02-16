@@ -31,4 +31,4 @@ If you wish to contribute, you're 100% welcome to!
 Just fork this project and start creating. Once you're done, just make a pull request, and I'll consider merging 🙂
 
 ## License
-This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache License 2.0 - see the [LICENSE](https://github.com/ReloadingBee/CoolBar/blob/main/LICENSE) file for details.

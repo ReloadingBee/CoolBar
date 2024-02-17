@@ -1,5 +1,6 @@
 # CoolBar
- Dynamic Python Progress Bar
+Dynamic Python Progress Bar
+[CoolBar GitHub](https://github.com/ReloadingBee/CoolBar)
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -19,7 +20,7 @@ CoolBar is a Python3 package that aims to provide users with a _cool_ progress b
 - Ease of use
 
 ## Installation
-Currently, there is no way of installing this package.
+`pip install CoolBar`
 
 ## Usage
 

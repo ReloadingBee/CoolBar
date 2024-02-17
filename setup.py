@@ -7,7 +7,7 @@ long_description = (this_directory / "README.md").read_text(encoding='utf-8')
 setup(
     name='CoolBar',
     packages=find_packages(),
-    version='0.5.4',
+    version='0.5.5',
     license='Apache-2.0',
     description='Dynamic Python Progress Bar',
     long_description=long_description,

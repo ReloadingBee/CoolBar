@@ -1,6 +1,6 @@
 from sys import stdout
 from time import time
-import animations
+from .animations import main
 
 
 class Bar:
@@ -33,7 +33,7 @@ class Bar:
         if self.done >= self.total:
             self._output("(!)")
         elif self.animation != 0:
-            self._output(animations.main("", self.animation))
+            self._output(main("", self.animation))
         else:
             self._output("...")
 

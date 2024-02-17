@@ -56,16 +56,16 @@ class Bar:
 
         # Progress tracker
         progress_bar += f"{self.done}/{self.total} "
-        progress_bar += f"[{self.done / self.total * 100: .1f}%]"
+        progress_bar += f"[{self.done / self.total * 100:.1f}%]"
 
         # Time tracker
         self.elapsed_time = time() - self.start_time
         self.averages.append(self.elapsed_time)
         if self.done < self.total:
             average = sum(self.averages) / len(self.averages)
-            progress_bar += f" ({self.elapsed_time: .3f}s, eta: {int(average * (self.total - self.done))}s)"
+            progress_bar += f" ({self.elapsed_time:.3f}s, eta: {int(average * (self.total - self.done))}s)"
         else:
-            progress_bar += f" (Done in {sum(self.averages): .3f} seconds)"
+            progress_bar += f" (Done in {sum(self.averages):.3f} seconds)"
 
         # Fix overflow error
         progress_bar += " " * (self.max_string_length - len(progress_bar))
